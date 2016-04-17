@@ -1,0 +1,28 @@
+1. What are the three main design advantages that object orientation can provide?
+Explain each concept.
+
+- Abstraction: You can hide the details of how something works from the user. The user doesn't need to know how something works because they just want to know that it does work and they can get the correct output. It's like when you drive a car, you don't have to know the mechanics of the car, but you know that it will get you from point A to B when you drive it.
+
+- Encapsulation: It keeps everything organized and together. The data and methods are all in one place. 
+
+- Polymorphism - By defining a superclass, you can change the instance attributes and methods for the subclasses. The subclasses will inherit anything that you want from the superclass but the ability to change the data, gives you the capability to customize each subclass. Even though each subclass differs from one another, each one is a child of the superclass. For example, if the superclass is a Pet and the subclasses are Dog and Cat, Dog and Cat are not the same, but they are both pets.
+
+
+2. What is a class?
+It is like a template that contains data that will be passed onto any instance of that class. For example, the list data type is a Python class. When you have an instance of the list class, the rules for what you can do to a list are the same, ie. what methods you can use on the list.
+
+
+3. What is an instance attribute?
+An attribute that is specific to an instance/object of a class. The instance attribute holds true for a particular subclass but it doesn't mean that another subclass will also have the same instance attribute. 
+
+
+4. What is a method?
+A method is like a function defined inside a class. A method will always take self as one of its parameters. 
+
+
+5. What is an instance in object orientation?
+After an instance/object has been instantiated, the instance created is based on the class, which is like a blueprint/template. The instance inherits the data and methods of the class it is being instantiated from. 
+
+
+6. How is a class attribute different than an instance attribute? Give an example of when you might use each.
+If a class has a class attribute, every instance of that class will inherit this attribute. The instance will look to the class for the class attribute. An instance attribute is set onto the object. Instance attributes are ways to customize a class. For example, if you have a class Pants. Pants all have two pant legs. The number of pant legs can be a class attribute that holds true for all instances. But there are different types of pant legs, ie. they can be flared, fitted, etc. The type of pant leg will be an instance attribute. 
